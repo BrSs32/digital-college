@@ -1,0 +1,27 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+p {
+    font-size: 20px;
+    color: rgb(255, 30, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+    ]text-align: justify;
+}
+.segundo  {
+    color: blue;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+.monalisa {
+    background-image: url("./355522.webp");
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+
+}
