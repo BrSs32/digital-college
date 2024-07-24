@@ -1,0 +1,195 @@
+
+*{
+    margin: 0
+    ;
+    padding: 0
+    ;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #F1511B;
+}
+
+/* Estilo fo Cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #F1511B;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button{
+    padding:  10px 40px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #F1511B;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    transition: 2s;
+}
+button:hover{
+    box-shadow: 0px 0px 8px #066fbadc;
+    transform: scale(1.05);
+}
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #F1511B;
+}
+
+.topo-do-site .txt-topo-site p{
+   color: #fff; 
+   margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* Estilo do Sobre */
+
+section .sobre{
+    padding: 100px 4%;
+}
+
+section.sobre.flex{
+    align-items: center;
+    gap: 100px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+    margin-top: 60px;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.sobre .txt-sobre h2 span{
+    color: #F1511B;
+    display: block;
+    
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F1511B;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 2s;
+}
+
+/* Estilo dos Serviços */
+section.serviços {
+    padding: 80px 4%;
+}
+
+section.serviços .flex{
+    gap: 40px;
+}
+
+.serviços .serviços-box{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+}
+
+.serviços .serviços-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #F1511B;
+}
+
+.serviços .serviços-box i{
+    font-size: 70px;
+    color: #F1511B;    
+}
+.serviços .serviços-box h3{
+    font-size: 26px;
+    margin: 15px 0;
+    
+}
