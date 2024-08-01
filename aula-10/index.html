@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portfolio Pessoal</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="flex justify-center items-center bg-zinc-900 text-white h-14">
+    <div class="flex w-full max-w-screen-lg justify-between">
+      <a class="text-white" href="#">Ismael Navarry</a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+      </button>
+      <div id="navbarNav">
+        <ul class="flex gap-3.5">
+          <li>
+            <a  href="#about">Sobre</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção Sobre -->
+  <section id="about">
+    <div class="flex justify-center py-12">
+      <div class="lg:flex-row flex flex-col-reverse justify-between w-full max-w-screen-lg items-center">
+        <div class="flex flex-col gap-6">
+          <h2 class="text-2xl">Sobre Mim</h2>
+          <p>
+            Olá! Eu sou um desenvolvedor web com paixão por criar soluções inovadoras...
+          </p>
+          <div>
+              <a href=""></a><button class="py-2 px-3 text-white hover:bg-blue-500 active:bg-yellow-950 bg-gray-500 rounded-md">Instagram</button>
+              <button class="py-2 px-3 text-white hover:bg-blue-500 active:bg-yellow-950 bg-gray-500 rounded-md">Github</button>
+              <button class="py-2 px-3 text-white hover:bg-blue-500 active:bg-yellow-950 bg-gray-500 rounded-md">Linkedin</button>
+          </div>
+        </div>
+        <div class="bg-[url('https://github.com/BrSs32.png')] size-60 bg-center bg-cover rounded-full  "></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projects" class=" flex w-full justify-center py-12">
+    <div class="w-full max-w-screen-lg space-y-6">
+      <h2 class="flex justify-center text-3xl font-semibold">Meus Projetos</h2>
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="w-full border-2 border-zinc-300 col-span-1 rounded-lg overflow-hidden">
+            <img src="https://image.freepik.com/fotos-gratis/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.jpg" alt="Projeto 1">
+            <div class="py-3 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 1...</p>
+            </div>
+          </div>
+          <div class="w-full border-2 border-zinc-300 col-span-1 rounded-lg overflow-hidden">
+            <img src="https://image.freepik.com/fotos-gratis/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.jpg" alt="Projeto 1">
+            <div class="py-3 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 1...</p>
+            </div>
+          </div>
+          <div class="w-full border-2 border-zinc-300 col-span-1 rounded-lg overflow-hidden">
+            <img src="https://image.freepik.com/fotos-gratis/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.jpg" alt="Projeto 1">
+            <div class="py-3 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 1...</p>
+            </div>
+          </div>       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contact">
+    <div class="w-full max-w-screen-lg mx-auto space-y-6 py-12">
+      <h2 class="flex justify-center text-3xl font-semibold">Contato</h2>
+      <form>
+        <div class="flex flex-col gap-2">
+          <label for="name">Nome</label>
+          <input type="text" id="name" required class="border border-zinc-400 rounded-md h-10 px-2">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" required class="border border-zinc-400 rounded-md h-10 px-2">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="message">Mensagem</label>
+          <textarea id="message" rows="4" required class="border border-zinc-400 rounded-md h-48 px-2"></textarea>
+        </div>
+        <button type="submit" class="py-2 px-3 text-white hover:bg-blue-500 active:bg-yellow-950 bg-gray-500 rounded-md">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Meu Portfolio. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
